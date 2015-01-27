@@ -6,6 +6,6 @@ Feature: Memory
   Scenario: Store and retrieve a result
     Given I have done some arithmetic
     And I have cleared the screen
-    When I press recall
+    When I press Memory
     Then I should see the previously stored result
 

@@ -3,8 +3,8 @@ Feature: Special Calculator Operations
   and arguments.
 
   Scenario Outline: Math and Physics
-    When I use the special constant <constant>
-    Then the current value on the screen should be <value>
+    When I use the special constant <value>
+    Then the current value on the screen should be <constant>
   Examples:
     | constant       | value  |
     | PI             | 3.1416 |
