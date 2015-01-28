@@ -1,4 +1,4 @@
-require 'page-object'
+ require 'page-object'
 
 include PageObject::PageFactory
 
