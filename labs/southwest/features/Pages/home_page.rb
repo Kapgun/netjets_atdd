@@ -1,6 +1,6 @@
 require 'page-object'
 
-class Schedule
+class HomePage
   include PageObject
 
   page_url "www.southwest.com"

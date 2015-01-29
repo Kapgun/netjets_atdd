@@ -1,6 +1,6 @@
 When(/^I view my account balances$/) do
-  open login
-  open balances
+  AccountDetails.login
+  AccountDetails.Balances
 end
 
 Then(/^My account info$/) do
