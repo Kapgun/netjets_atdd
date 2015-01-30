@@ -2,6 +2,7 @@ require 'locale'
 require 'page_definitions/wikipedia_home'
 require 'page-object'
 require 'test/unit'
+include Test::Unit::assertions
 
 include PageObject::PageFactory
 

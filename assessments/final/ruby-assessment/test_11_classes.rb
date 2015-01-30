@@ -6,7 +6,7 @@ class AboutClasses < Test::Unit::TestCase
 
   def test_creating_new_objects_with_contructors
     fido = Dog.new
-    assert_equal __, fido.class
+    fido.Dog
   end
 
   # ------------------------------------------------------------------
@@ -24,7 +24,7 @@ class AboutClasses < Test::Unit::TestCase
     fido = Dog3.new
     fido.set_name("Fido")
 
-    assert_equal __, fido.name
+    fido.name
   end
 
   # ------------------------------------------------------------------

@@ -11,8 +11,8 @@ def in_ruby_version(*versions)
   yield if versions.any? { |v| ruby_version?(v) }
 end
 
-def __
-  "<FIX THIS TEST>"
+def fix_test
+  "Fix this test"
 end
 
 alias :___ :__

@@ -16,8 +16,8 @@ class AboutClassMethods < Test::Unit::TestCase
 
   def test_class_methods_are_independent_of_instance_methods
     fido = Dog2.new
-    assert_equal __, fido.wag
-    assert_equal __, Dog2.wag
+    fido.wag.do
+    Dog2.wag.do
   end
 
 end

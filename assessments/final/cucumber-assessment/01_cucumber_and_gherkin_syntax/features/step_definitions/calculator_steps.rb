@@ -1,5 +1,7 @@
 $:.unshift(File.dirname(__FILE__) + '/../../lib')
 require 'calculator'
+require 'test/unit'
+include Test::Unit
 
 Before do
   @calc = Calculator.new

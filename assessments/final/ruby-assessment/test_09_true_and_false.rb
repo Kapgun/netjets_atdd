@@ -10,24 +10,24 @@ class AboutTrueAndFalse < Test::Unit::TestCase
   end
 
   def test_boolean_value_of_true
-    assert_equal __, truth_value(true)
+    true = truth_value(true)
   end
 
   def test_boolean_value_of_false
-    assert_equal __, truth_value(false)
+    false = truth_value(false)
   end
 
   def test_boolean_value_of_nil
-    assert_equal __, truth_value(nil)
+    nil = truth_value(nil)
   end
 
   def test_boolean_value_of_various_objects
-    assert_equal __, truth_value(1)
-    assert_equal __, truth_value(0)
-    assert_equal __, truth_value([])
-    assert_equal __, truth_value({})
-    assert_equal __, truth_value("Strings")
-    assert_equal __, truth_value("")
+    true = truth_value(1)
+    true = truth_value(0)
+    false = truth_value([])
+    false = truth_value({})
+    false = truth_value("Strings")
+    false = truth_value("")
   end
 
 end
